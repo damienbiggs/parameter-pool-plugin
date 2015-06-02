@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+  This plugin is used to specify a parameter pool for a job
+</div>
