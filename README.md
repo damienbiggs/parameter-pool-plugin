@@ -14,8 +14,8 @@ We use the following flow.
 
 After a code commit, the following runs
 
-1) A container tests job is kicked off
-2) This job uses the parameter pool plugin to select a vm name that is not in use in any other running container test job
-3) This vm is reverted
-4) This vm is rebuilt with the code from the commit
+1) A container tests job is kicked off<br/>
+2) This job uses the parameter pool plugin to select a vm name that is not in use in any other running container jobs<br/>
+3) This vm is reverted<br/>
+4) This vm is rebuilt with the code from the commit<br/>
 5) Tests are run against that vm.
